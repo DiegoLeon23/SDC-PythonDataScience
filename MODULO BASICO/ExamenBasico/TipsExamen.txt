@@ -1,0 +1,11 @@
+CASO 1: 
+1.Limpieza de datos primero, categorizar la data usando LabelEncoder y eso, luego mostrar algunas variables usando sns.pairplot(muestra barras y dispersion)
+2. usar zcore(ver cuantos registros quedan sin outliers,por ejemplo k k=2 k=3), grafiquito,uso de boxplot
+3.KMeansDiscretizer(uniform, mean, kmeans)
+4. Tecnicas de Balanceo (UnderSamplin,OverSampling,SMOTE) 0.8
+
+CASO 2:
+
+1.Borrar las filas con NA ya que son muy pocas
+2.Seguir los ejemplos de los laboratorios de la semana 5, tal cual, en el criterio de Kaiser considerar valores que tengan k casi llegado a 1 tambien, es decir 0.998 ,etc
+
