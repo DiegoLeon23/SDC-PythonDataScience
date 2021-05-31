@@ -1,0 +1,32 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="PAY_0 <= 1.5\nentropy = 0.977\nsamples = 12893\nvalue = [7584, 5309]"] ;
+1 [label="BILL_AMT1 <= 86353.0\nentropy = 0.916\nsamples = 10686\nvalue = [7150, 3536]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="PAY_AMT4 <= 9804.0\nentropy = 0.881\nsamples = 10119\nvalue = [7085, 3034]"] ;
+1 -> 2 ;
+3 [label="entropy = 0.868\nsamples = 9961\nvalue = [7076, 2885]"] ;
+2 -> 3 ;
+4 [label="entropy = 0.315\nsamples = 158\nvalue = [9, 149]"] ;
+2 -> 4 ;
+5 [label="LIMIT_BAL <= 145000.0\nentropy = 0.514\nsamples = 567\nvalue = [65, 502]"] ;
+1 -> 5 ;
+6 [label="entropy = 0.865\nsamples = 223\nvalue = [64, 159]"] ;
+5 -> 6 ;
+7 [label="entropy = 0.029\nsamples = 344\nvalue = [1, 343]"] ;
+5 -> 7 ;
+8 [label="BILL_AMT1 <= 80760.0\nentropy = 0.715\nsamples = 2207\nvalue = [434, 1773]"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="BILL_AMT1 <= 2207.5\nentropy = 0.801\nsamples = 1740\nvalue = [424, 1316]"] ;
+8 -> 9 ;
+10 [label="entropy = 0.989\nsamples = 198\nvalue = [87, 111]"] ;
+9 -> 10 ;
+11 [label="entropy = 0.758\nsamples = 1542\nvalue = [337, 1205]"] ;
+9 -> 11 ;
+12 [label="BILL_AMT1 <= 111512.0\nentropy = 0.149\nsamples = 467\nvalue = [10, 457]"] ;
+8 -> 12 ;
+13 [label="entropy = 0.308\nsamples = 181\nvalue = [10, 171]"] ;
+12 -> 13 ;
+14 [label="entropy = 0.0\nsamples = 286\nvalue = [0, 286]"] ;
+12 -> 14 ;
+}
